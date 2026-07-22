@@ -1,0 +1,14 @@
+base_url:
+ https://arxiv.org
+
+model_params:
+ emb_model_name: thenlper/gte-small
+ llm: microsoft/Phi-3-mini-4k-instruct
+ llm_task: text-generation
+ cluster_size: 25
+ n_components: 25
+ metric: cosine
+ temperature: 0.1
+ top_k: 50
+ top_p: 0.9
+ random_state: 42
