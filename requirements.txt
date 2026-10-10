@@ -1,7 +1,7 @@
 beautifulsoup4==4.15.0
 bertopic==0.17.4
 chromadb==1.5.9
-datasets==5.0.0
+datasets==5.0.1
 faiss==1.5.3
 gensim==4.4.0
 hdbscan==0.8.44
